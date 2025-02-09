@@ -58,8 +58,6 @@ void setup() {
   lcd.clear();
 }
 
-
-
 void loop() {
   temperature();
   String command; // 8 bit character sent by the bluetooth to communicate with the board.
