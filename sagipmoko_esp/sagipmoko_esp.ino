@@ -7,6 +7,7 @@
 #define APPSK  "123456789" //Password
 #endif
 
+
 const char *ssid = APSSID;
 const char *password = APPSK;
 const char index_html[] = R"rawliteral(
