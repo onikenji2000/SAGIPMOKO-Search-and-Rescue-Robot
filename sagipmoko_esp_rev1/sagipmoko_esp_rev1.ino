@@ -2,11 +2,11 @@
 #include <ESPAsyncTCP.h>
 #include <ESPAsyncWebSrv.h>
 
-
 #ifndef APSSID
 #define APSSID "Bogart v2.0"   //SSID
 #define APPSK  "123456789" //Password
 #endif
+
 
 const char *ssid = APSSID;
 const char *password = APPSK;
