@@ -46,7 +46,7 @@ const char index_html[] = R"rawliteral(
             <div class="control-panel left-track-panel">
                 <div class="track-control">
                     <svg width="80" height="150" x="10" y="10">
-                        <rect width="100" height="300" style="fill:rgb(0, 89, 255); stroke-width:10; stroke:rgb(0, 100, 0)" />
+                        <rect width="100" height="300" style="fill:rgb(0, 89, 255); stroke-width:10; stroke:rgb(93, 100, 0)" />
                     </svg>
                 </div>
             </div>
