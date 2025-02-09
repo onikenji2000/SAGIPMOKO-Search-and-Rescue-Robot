@@ -258,6 +258,8 @@ const char index_html[] = R"rawliteral(
     </body>
 </html>)rawliteral";
 
+
+
 AsyncWebServer server(80);
 
 int left = 0, right = 0, tilt = 0, pan = 0;
@@ -272,7 +274,7 @@ void setup() {
   Serial.println(ssid);
   Serial.print("IP Address: ");
   Serial.println(WiFi.softAPIP());
-  
+
   server.on("/", HTTP_GET, [](AsyncWebServerRequest *request) {
     request->send_P(200, "text/html", index_html);
   });
