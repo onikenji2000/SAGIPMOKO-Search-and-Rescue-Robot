@@ -272,7 +272,7 @@ void setup() {
   Serial.println(ssid);
   Serial.print("IP Address: ");
   Serial.println(WiFi.softAPIP());
-
+  
   server.on("/", HTTP_GET, [](AsyncWebServerRequest *request) {
     request->send_P(200, "text/html", index_html);
   });
