@@ -258,8 +258,6 @@ const char index_html[] = R"rawliteral(
     </body>
 </html>)rawliteral";
 
-
-
 AsyncWebServer server(80);
 
 int left = 0, right = 0, tilt = 0, pan = 0;
