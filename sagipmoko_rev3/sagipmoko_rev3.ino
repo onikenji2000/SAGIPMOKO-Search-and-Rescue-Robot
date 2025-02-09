@@ -9,7 +9,6 @@
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
-
 LiquidCrystal_I2C lcd(0x27, 20, 4); //The LCD address and size. You can change according you yours
 
 // Data wire is plugged into pin 38 on the Arduino
