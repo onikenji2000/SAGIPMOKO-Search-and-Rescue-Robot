@@ -76,6 +76,7 @@ void setup() {
   lcd.noBacklight();
 }
 
+//Values for the hardware variables
 void setValue(String identifier, int value) {
   if(identifier == "left") leftmot = value;
   else if(identifier == "right") rightmot = value;
